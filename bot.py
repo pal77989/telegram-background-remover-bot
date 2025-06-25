@@ -14,7 +14,7 @@ ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID"))
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     msg = (
         "👋 Hi! I am Pankaj Pal, your Background Remover Bot.\n\n"
-        "👉 Just send me any photo, and I’ll remove its background in seconds!\n"
+        "👉 Just send me any photo, and I’ll remove its background in seconds!\n" 
         "🗣️ You can say 'hi', 'help', or simply send a photo now!"
     )
     await update.message.reply_text(msg)
